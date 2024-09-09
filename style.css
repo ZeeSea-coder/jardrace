@@ -29,17 +29,81 @@ section{
     font: 55px;
     font-weight: 1000;
     color: seagreen;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: burlywood;
 }
+
+
+#about .btn-brand:hover{
+    color: burlywood !important;
+    border-color: burlywood !important;
+
+
+}
+
+#about {
+
+    background-color: seagreen rgb(255, 255, 255);
+}
+
+
+
 img{
     border-radius: 30px;
 }
+
+
+
+
 #services h3{
     font: 55px;
     font-weight: 1000;
     color: seagreen;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: burlywood;
 }
+
 .uwu{
     padding: 22px;
     height: 160px;
     width: 200px;
 }
+
+#services .btn-brand:hover{
+
+    color: aliceblue rgb(255, 255, 255) !important;
+    border-color: aliceblue rgb(255, 255, 255) !important;
+
+
+}
+
+.card{
+transition: background-color 0.5s, color 0.5ms;
+border: 5px solid var(--border); /"Border-style"/
+box-shadow: 0 0 10px;
+border-radius: 30px;
+
+}
+
+
+.card:hover{
+    background-color: burlywood;
+}
+
+
+    .card:hover .card-title,
+    .card:hover .card-text,
+    .card:hover .btn {
+        color: white;
+    }
+    
+
+
+    
+    
+
+
+
+
+
+
