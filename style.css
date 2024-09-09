@@ -1,0 +1,45 @@
+#banner{
+    height: 90vh;
+    background: url(bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}   
+.btn{
+    padding: 15px 30px;
+    border-radius: 30;
+    font-size: 18px;
+    font-weight: 900;
+    transition: all .4s ease;
+}
+.btn-brand{
+    background-color: seagreen;
+    color: aliceblue;
+    border: 3px solid seagreen;
+}
+.btn-brand:hover{
+    background-color: transparent;
+    border: 3px solid seagreen;
+    color: seagreen;
+}
+section{
+    padding: 100px 0px;
+}
+#about h2{
+    font: 55px;
+    font-weight: 1000;
+    color: seagreen;
+}
+img{
+    border-radius: 30px;
+}
+#services h3{
+    font: 55px;
+    font-weight: 1000;
+    color: seagreen;
+}
+.uwu{
+    padding: 22px;
+    height: 160px;
+    width: 200px;
+}
